@@ -5,7 +5,7 @@ import pymysql
 
 def lambda_handler(event, context):
     
-    # Leitura dos dados da requisição
+    # Leitura dos dados da requisição 
     token = event['token']
     
     # Conexão com o banco de dados
